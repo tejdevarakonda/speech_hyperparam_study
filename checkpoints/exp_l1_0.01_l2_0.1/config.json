@@ -1,0 +1,13 @@
+{
+  "train_csv": "data/metadata/train_processed_pairs.csv",
+  "val_csv": "data/metadata/val_processed_pairs.csv",
+  "exp_name": "exp_l1_0.01_l2_0.1",
+  "epochs": 5,
+  "batch_size": 8,
+  "lr": 0.001,
+  "segment_seconds": 2.0,
+  "recon_w": 1.0,
+  "spec_w": 0.01,
+  "smooth_w": 0.1,
+  "sparse_w": 0.0
+}
